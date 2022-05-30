@@ -1,0 +1,126 @@
+{
+  "wallet": [
+    { "symbol": "$", "amount": 83938 },
+    { "symbol": "LTC", "amount": 1.8 },
+    { "symbol": "ETH", "amount": 0.6238243389791156 },
+    { "symbol": "USDT", "amount": 180 },
+    { "symbol": "MANA", "amount": 14.529621838461916 },
+    { "symbol": "BTC", "amount": 0.02 },
+    { "symbol": "LINK", "amount": 87.38767838316703 },
+    { "symbol": "SOL", "amount": 3.239635100844731 },
+    { "symbol": "DOGE", "amount": 219.1313004056996 },
+    { "symbol": "UNI", "amount": 9.37494067994725 },
+    { "symbol": "USDC", "amount": 7.257503794079855 },
+    { "symbol": "DOT", "amount": 14.58793196764611 }
+  ],
+  "transactions": [
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de DOT",
+      "method": "Cuenta BTC",
+      "state": "Completado",
+      "comision": "- 0.14735285 DOT",
+      "amount": 14.735284815804151,
+      "symbol": "DOT"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de USDC",
+      "method": "Cuenta AAVE",
+      "state": "Completado",
+      "comision": "- 0.07330812 USDC",
+      "amount": 7.330811913211975,
+      "symbol": "USDC"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Compra de DOGE",
+      "method": "Cuenta Pesos",
+      "state": "Completado",
+      "comision": "- 0.83658673 DOGE",
+      "amount": 83.65867261572784,
+      "symbol": "DOGE"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Compra de AAVE",
+      "method": "Cuenta Pesos",
+      "state": "Completado",
+      "comision": "- 0.00074090 AAVE",
+      "amount": 0.07408987991512263,
+      "symbol": "AAVE"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de UNI",
+      "method": "Cuenta SLP",
+      "state": "Completado",
+      "comision": "- 0.09469637 UNI",
+      "amount": 9.469637050451768,
+      "symbol": "UNI"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de SLP",
+      "method": "Cuenta UNI",
+      "state": "Completado",
+      "comision": "- 90.755 SLP",
+      "amount": 9075.456006514252,
+      "symbol": "SLP"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de DOGE",
+      "method": "Cuenta USDT",
+      "state": "Completado",
+      "comision": "- 1.376861 DOGE",
+      "amount": 137.6860752688172,
+      "symbol": "DOGE"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de UNI",
+      "method": "Cuenta UBI",
+      "state": "Completado",
+      "comision": "- 0.09661909 UNI",
+      "amount": 9.66190904035483,
+      "symbol": "UNI"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de UBI",
+      "method": "Cuenta ETH",
+      "state": "Completado",
+      "comision": "- 37.326925 UBI",
+      "amount": 3732.6924727906676,
+      "symbol": "UBI"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de SOL",
+      "method": "Cuenta BTC",
+      "state": "Completado",
+      "comision": "- 0.03272359 SOL",
+      "amount": 3.2723586877219506,
+      "symbol": "SOL"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de LINK",
+      "method": "Cuenta BTC",
+      "state": "Completado",
+      "comision": "- 0.88270382 LINK",
+      "amount": 88.27038220521922,
+      "symbol": "LINK"
+    },
+    {
+      "date": "0/4/2022",
+      "operation": "Conversión de BTC",
+      "method": "Cuenta LINK",
+      "state": "Completado",
+      "comision": "- ₿0.00000227",
+      "amount": 0.0002268407331563142,
+      "symbol": "BTC"
+    }
+  ]
+}

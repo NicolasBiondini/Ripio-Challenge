@@ -1,0 +1,16 @@
+FROM node:17-alpine3.14 as build
+WORKDIR /app
+
+COPY ./package.json ./
+COPY ./tsconfig.json ./ 
+
+RUN npm install
+RUN npm install lottie-react --legacy-peer-deps 
+
+COPY . .
+RUN npm run build
+
+FROM nginx
+EXPOSE 3000
+COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
+COPY --from=build /app/build /usr/share/nginx/html

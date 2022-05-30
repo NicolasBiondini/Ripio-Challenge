@@ -1,0 +1,27 @@
+version: "3.2"
+
+services:
+  nginx:
+    build:
+      dockerfile: Dockerfile
+      context: ./nginx
+    ports:
+      - "80:80"
+    restart: always
+
+  backend:
+      build:
+          dockerfile: Dockerfile
+          context: ./backend
+      environment:
+          PORT: 3001
+      container_name: "backend"
+      expose:
+        - "3001"
+
+  frontend:
+      build:
+          dockerfile: Dockerfile
+          context: ./frontend
+      container_name: "frontend"
+
